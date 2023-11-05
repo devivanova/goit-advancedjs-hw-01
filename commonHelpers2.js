@@ -1,2 +1,2 @@
-import"./assets/modulepreload-polyfill-ec808ebb.js";/* empty css                      */import{P as r,l as a}from"./assets/vendor-d78ab9e0.js";const e="videoplayer-current-time",l=document.querySelector("iframe"),t=new r(l),n=function(o){localStorage.setItem(e,o.seconds)};t.on("timeupdate",a(n,1e3));t.setCurrentTime(JSON.parse(localStorage.getItem(e))||0);
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */import{P as r,t as a}from"./assets/vendor-6d94a353.js";const e="videoplayer-current-time",n=document.querySelector("iframe"),t=new r(n),c=function(o){localStorage.setItem(e,o.seconds)};t.on("timeupdate",a(c,1e3));t.setCurrentTime(JSON.parse(localStorage.getItem(e))||0);
 //# sourceMappingURL=commonHelpers2.js.map
